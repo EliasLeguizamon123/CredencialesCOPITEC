@@ -9,6 +9,7 @@ var matriculadoRouter = require('./routes/matriculado');
                     //Settings            -------------------------
 
 app.set('port', 3000);
+  //Need change pug for React
 app.set('view engine', 'pug');
 app.set('views', path.resolve(__dirname, 'views'));
 
