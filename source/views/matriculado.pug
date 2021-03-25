@@ -1,20 +1,4 @@
 html
   include head.pug
   body
-    pre(id='datos')
-    script(type='text/javascript')
-      let url = {
-        url: 'http://localhost:3000/matriculado'
-      };
-      fetch(opts)
-          .then((res) => {
-              if (res.ok) {
-                  return res.json();
-              }
-           })
-           .then((rows) => {
-               for (let row of rows) {
-                   // row will be a mysql row -- you can loop over these and do what you want with them
-               }
-            })
-            .catch(console.log);
+    p Hola Mundo
