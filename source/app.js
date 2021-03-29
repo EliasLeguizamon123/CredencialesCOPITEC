@@ -1,6 +1,6 @@
-const express = require('express');
-      morgan = require('morgan');
-      path = require('path');
+const express = require('express'),
+      morgan = require('morgan'),
+      path = require('path'),
       mysql = require('mysql');
 const app = express();
 
@@ -9,6 +9,9 @@ var matriculadoRouter = require('./routes/matriculado');
                     //Settings            -------------------------
 
 app.set('port', 3000);
+  //Need change pug for React
+app.set('view engine', 'pug');
+app.set('views', path.resolve(__dirname, 'views'));
 
                     //Middlewares         -------------------------
 
