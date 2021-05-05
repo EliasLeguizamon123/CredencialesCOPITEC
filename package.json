@@ -1,0 +1,36 @@
+{
+  "name": "credencialesjson",
+  "version": "2.1.0",
+  "description": "API utilizada para visualizar datos de matriculados dentro de mongo Atlas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch source source/index.js",
+    "start": "nodemon source/index.js"
+  },
+  "author": "Elias Leguizamon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "mysql": "github:mysqljs/mysql",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasLeguizamon123/CredencialesCopitec.git"
+  },
+  "keywords": [
+    "COPITEC"
+  ],
+  "bugs": {
+    "url": "https://github.com/EliasLeguizamon123/CredencialesCopitec/issues"
+  },
+  "homepage": "https://github.com/EliasLeguizamon123/CredencialesCopitec#readme"
+}

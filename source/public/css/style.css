@@ -1,0 +1,21 @@
+.tarjetas{
+    padding-top: 4rem;
+    align-items: center;
+}
+.tarjetaSuccess, .tarjetaWarning, .tarjetaDanger .tarjetaCopitec{
+    text-align: center;
+}
+.row{
+    margin-right: 0%;
+}
+hr{
+    width: 100%;
+}
+.copitec{
+    margin-left: 3rem;
+}
+
+p:hover, h4:hover{
+    color: gray;
+    transition-duration: 0.5s;
+}
