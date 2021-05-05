@@ -1,7 +1,7 @@
 {
   "name": "credencialesjson",
   "version": "2.1.0",
-  "description": "Backend separado del Frontend",
+  "description": "API utilizada para visualizar datos de matriculados dentro de mongo Atlas",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,10 @@
   "author": "Elias Leguizamon",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.12.7",
     "morgan": "^1.10.0",
     "mysql": "github:mysqljs/mysql",
     "pug": "^3.0.0"
